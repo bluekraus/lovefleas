@@ -1,0 +1,73 @@
+/* Global Styles : DO NOT EDIT */
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+#grid_container {
+	width: 200px;
+	height: 100px;
+	position: relative;
+	left: 50%;
+	top: 48%; /* for optical centering */
+	margin-top: -50px;
+	margin-left: -100px;
+}
+
+.mono {
+	font-family: 'Fjalla One';
+	font-size: 6em;
+	float: left;
+	margin-left: 5px;
+}
+
+
+/* Animation Keyframes */
+
+@-webkit-keyframes f_move {
+    0% {top: 0px; left: 0px;}
+    50% {top:-150px; left: 0px;}
+    75% {top:-150px; left: -180px;}
+    100% {top:0px; left: -180px;}
+}
+
+#f {
+    position: relative;
+    -webkit-animation: f_move 2s;
+    -webkit-animation-fill-mode:forwards;
+    color: mediumturquoise;
+}
+#e {
+    color:coral;
+}
+#a {
+    color:lightcoral;
+}
+#l {
+    color:salmon;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Save the code below for later */
+/*
+
+@-webkit-keyframes woah {
+	0% 	{ -webkit-transform: rotate(0deg); width: 0px; height: 0px; border-radius: 0%; opacity: 1; }
+	20%	{ -webkit-transform: rotate(0deg); width: 300px; height: 0px; border-radius: 0%; opacity: 1; }
+	40%	{ -webkit-transform: rotate(0deg); width: 300px; height: 300px; border-radius: 0%; opacity: 1; }
+	60%	{ -webkit-transform: rotate(-360deg); width: 300px; height: 300px; border-radius: 0%; opacity: 1; }
+	80% 	{ -webkit-transform: rotate(-360deg); width: 10px; height: 10px; border-radius: 100%; opacity: 1;  }
+	100% 	{ -webkit-transform: rotate(-360deg); width: 600px; height: 600px; border-radius: 100%; opacity: 0; }
+}
+
+*/
